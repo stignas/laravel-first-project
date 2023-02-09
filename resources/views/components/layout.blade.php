@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('/assets/css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/create.css') }}">
     <link rel="stylesheet" href="{{ asset('/assets/css/product.css') }}">
-    <title>{{ $title ?? 'Product manager' }}</title>
+    <title>Product manager - {{ $title }}</title>
 </head>
 <body>
 <header>

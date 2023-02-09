@@ -1,9 +1,10 @@
 <x-layout>
     <x-slot:title>
-        Create Product
+        Create
         </x-slot>
         <div class="form-wrapper">
             <form method="post" action="/product/create" id="create-form">
+                @csrf
                 <label for="name">Produkto pavadinimas: </label>
                 <input name="name" id="name" placeholder="Enter product name"/>
                 <label for="desc">Produkto aprašymas: </label>

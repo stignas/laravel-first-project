@@ -1,6 +1,6 @@
 <x-layout>
     <x-slot:title>
-        Products list
+        List
         </x-slot>
         <table>
             <tr>

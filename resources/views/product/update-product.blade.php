@@ -1,9 +1,10 @@
 <x-layout>
     <x-slot:title>
-        Update Product
+        Update/Delete
         </x-slot>
         <div class="form-wrapper">
             <form method="post" action="/product/edit/{{ $product['id'] }}" id="update-form">
+                @csrf
                 @method('PUT')
                 <label for="name">Produkto pavadinimas: </label>
                 <input name="name" id="name" value="{{ $product['name'] }}"/>
@@ -12,6 +13,7 @@
             </form>
 
             <form method="post" action="/product/delete/{{ $product['id'] }}" id="delete-form">
+                @csrf
                 @method('DELETE')
             </form>
         </div>
