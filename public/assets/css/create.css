@@ -1,0 +1,26 @@
+.form-wrapper {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+}
+
+
