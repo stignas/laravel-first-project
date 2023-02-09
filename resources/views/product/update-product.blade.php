@@ -16,8 +16,8 @@
             </form>
         </div>
         <x-slot:buttons>
-            <a href="#" id="create-link" onclick="document.getElementById('update-form').submit()" > Update </a>
-            <a href="#" id="create-link" onclick="document.getElementById('delete-form').submit()" > Delete </a>
+            <a href="#" id="create-link" onclick="document.getElementById('update-form').submit()">Update</a>
+            <a href="#" id="create-link" onclick="document.getElementById('delete-form').submit()">Delete</a>
             </x-slot>
         @if (@isset( $message ))
             <div class="message">

@@ -11,7 +11,7 @@
 {{--                        <input type="submit" value="Create"/>--}}
             </form>
             <x-slot:buttons>
-                <a href="#" id="create-link" onclick="document.getElementById('create-form').submit()" > Create </a>
+                <a href="#" id="create-link" onclick="document.getElementById('create-form').submit()">Create</a>
             </x-slot>
         </div>
         @if (@isset( $message ))
